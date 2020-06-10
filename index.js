@@ -3,11 +3,12 @@ const app = express()
 
 app.use((req, res, next) => {
     console.log("trigger middleware1")
-    next()
+    next("Hello next middleware")
 })
 
-app.use((req, res, next) => {
+app.use((param, req, res, next) => {
     console.log("trigger middleware2")
+    console.log(`param received [${param}]`)
     next()
 })
 
