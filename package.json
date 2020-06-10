@@ -18,5 +18,8 @@
   "homepage": "https://github.com/kun-yu-tsai/expressApp#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0"
   }
 }
