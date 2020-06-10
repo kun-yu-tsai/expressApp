@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kun-yu-tsai/expressApp/issues"
   },
-  "homepage": "https://github.com/kun-yu-tsai/expressApp#readme"
+  "homepage": "https://github.com/kun-yu-tsai/expressApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
