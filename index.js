@@ -1,7 +1,17 @@
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res)=>{
+app.use((req, res, next) => {
+    console.log("trigger middleware1")
+    next()
+})
+
+app.use((req, res, next) => {
+    console.log("trigger middleware2")
+    next()
+})
+
+app.get('/', (req, res) => {
     res.send("<b>Hello</b>")
 })
 app.listen(8000, () => {
