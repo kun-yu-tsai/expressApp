@@ -1,0 +1,19 @@
+{
+  "name": "fromscratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kun-yu-tsai/expressApp.git"
+  },
+  "author": "Kun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kun-yu-tsai/expressApp/issues"
+  },
+  "homepage": "https://github.com/kun-yu-tsai/expressApp#readme"
+}
